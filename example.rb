@@ -3,7 +3,7 @@ until defined? Sinatra
     "[R]eal Sinatra", "[A]lmost Sinatra"
   print ">> "
   case gets.strip.downcase
-  when 'a' then require_relative "almost_sinatra"
+  when 'a' then require_relative "lib/almost_sinatra"
   when 'r' then require 'sinatra'
   else puts "invalid input"
   end
