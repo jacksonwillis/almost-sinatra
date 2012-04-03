@@ -28,6 +28,9 @@ Almost Sinatra, please open a [Sinatra issue](https://github.com/sinatra/sinatra
 Copy the contents of `almost_sinatra.rb` into your app file (at the top), that
 way you also avoid running the wrong version by accident.
 
+Alternatively, use bundler to install from the gihub repository:
+    gem "almost-sinatra", :git => "git://github.com/jacksonwillis/almost-sinatra.git"
+
 ## Try it
 
     $ ruby example.rb
