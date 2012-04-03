@@ -4,6 +4,8 @@
 Gem::Specification.new do |gem|
   gem.authors       = ["Konstantin Haase"]
   gem.description   = "A Sinatra implementation in less than 10 lines."
+  gem.summary       = "Almost Sinatra is a Sinatra implementation in less than 10 lines, and is fully compatible with Sinatra."
+
   gem.homepage      = "https://github.com/rkh/almost-sinatra"
 
   gem.files         = ["README.md", "lib/almost_sinatra.rb"]
